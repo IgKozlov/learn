@@ -1,8 +1,4 @@
 <?
-	
-
-	///
-
 	session_start();
 	include "db/goods.base";
 	echo $_SESSION["REFERRER"]."<br>";
@@ -30,4 +26,7 @@
 		}
 	include "view/template.tpl";
 
+
+
+ //1
 ?>
