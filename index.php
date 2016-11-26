@@ -1,4 +1,8 @@
 <?
+	
+
+	///
+
 	session_start();
 	include "db/goods.base";
 	echo $_SESSION["REFERRER"]."<br>";
